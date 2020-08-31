@@ -4,7 +4,8 @@
     <summary>ESNext 중요 문법 정리</summary>
     <div markdown="1">
 
-    ## ESNEXT(ECMAScript2015~2019) 중요 문법 정리
+
+    ## ESNEXT(ECMAScript2015~2019) 중요 문법 정리.
 
     1. 비구조화 할당
 
