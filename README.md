@@ -42,7 +42,8 @@
    class Dog extends Animal{
      say(){return '멍멍'}
    }
-   const animal[] = Animal{[new
+   let animals: Animal[] = [new Cat('고양이', 3), new Dog('강아지', 1)]
+   let sounds = animals.map(a => a.say())
    ```
 
 4. 모듈
@@ -101,14 +102,47 @@
    
 
    </div>
-   </details>
+</details>
 
 <details>
 <summary>개발환경 구성</summary>
 <div markdown="2">
 
-1. 
+## 시작하기전 환경구성 부터 해보자..
 
+ 1. 비주얼 스튜디오 코드 설치
+
+    마이크로소프트에서 받자.
+
+ 2. NodeJs 설치
+    
+    nodejs 홈페이지서 받자.
+
+ 3. 타입스크립트 컴파일러 설치
+
+    ``` Terminal
+    > npm i -g typescript
+
+    > tsc -v
+    Version 4.0.2(20-08-31기준) //에러없이 설치되었다면 정상적으로 버전이 확인 가능.
+
+    > tsc ./2020-08-31/hello.ts
+    //2020-08-31폴더에 hello.js 파일이 생성되는 것 확인.
+
+    > node ./2020-08-31/hello.js
+    // hello world!
+    ```
+
+ 4. ts-node 설치
+    ts-node는 타입스크립트 코드를 ES5 형식의 자바스크립트 코드로 변환하고, 동시에 실행까지 해준다.
+    즉 3번에 tsc로 컴파일후 node로 실행 과정을 ts-node로 한번에 가능하다.
+
+     ``` Terminal
+    > npm i -g ts-node
+
+    > ts-node ./2020-08-31/hello.ts
+    // hello world!
+     ```
 </div></details>
 
 </details>
