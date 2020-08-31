@@ -54,8 +54,6 @@
    import { a } from 'a'
    ```
 
-   
-
 5. 생성기
 
    ``` javascript
@@ -84,12 +82,31 @@
    async 사용한 함수는 await 키워드를 사용할 수 있다. await는 Promise 객체를 해소해 get함수에 [1,2,3] 값을 Promise 형태로 반환 한다.
 
    get함수가 반환한 Promise객체는 then 메서드로 실제값을 얻을 수 있다.
-</div>
-</details>
+
+7. 삼항연산자
+
+   ``` javascript
+   const a = fasle
+   
+   a ? console.log("진실") : console.log("거짓") // 거짓
+   
+   const a = 10
+   
+   a == 10 ? console.log("진실") : console.log("거짓") // 진실
+   ```
+
+   삼항연산자는 의외로 사용되는 곳들이 많고 사용법도 쉽다.
+
+   
+
+   </div>
+   </details>
 
 <details>
 <summary>개발환경 구성</summary>
 <div markdown="2">
-  테스트
+
+1. 
+
 </div>
 </details>
