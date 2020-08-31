@@ -4,7 +4,7 @@
 <summary>ESNext 중요 문법 정리</summary>
 <div markdown="1">
 
-<<<<<<< HEAD
+
   ## ESNEXT(ECMAScript2015~2019) 중요 문법 정리
 
 1. 비구조화 할당
@@ -81,7 +81,7 @@
    
    get().then(values => console.log(values)) // [1,2,3]
    ```
-=======
+
    ## ESNEXT(ECMAScript2015~2019) 중요 문법 정리.
 
    1. 비구조화 할당
@@ -158,17 +158,15 @@
     
     get().then(values => console.log(values)) // [1,2,3]
     ```
->>>>>>> 2d627e2d39a866cff9224dae4275b1741acf68b0
+
 
    async 사용한 함수는 await 키워드를 사용할 수 있다. await는 Promise 객체를 해소해 get함수에 [1,2,3] 값을 Promise 형태로 반환 한다.
 
    get함수가 반환한 Promise객체는 then 메서드로 실제값을 얻을 수 있다.
 
-<<<<<<< HEAD
 7. 삼항연산자
-=======
+
    7. 삼항연산자
->>>>>>> 2d627e2d39a866cff9224dae4275b1741acf68b0
 
    ``` javascript
    const a = fasle
@@ -181,11 +179,7 @@
    ```
 
    삼항연산자는 의외로 사용되는 곳들이 많고 사용법도 쉽다.
-<<<<<<< HEAD
 
-=======
->>>>>>> 2d627e2d39a866cff9224dae4275b1741acf68b0
-   
    </div>
 </details>
 
@@ -220,15 +214,15 @@
 
 4. ts-node 설치
 
-​    ts-node는 타입스크립트 코드를 ES5 형식의 자바스크립트 코드로 변환하고, 동시에 실행까지 해준다.
+    ts-node는 타입스크립트 코드를 ES5 형식의 자바스크립트 코드로 변환하고, 동시에 실행까지 해준다.
 
-​    즉 3번에 tsc로 컴파일후 node로 실행 과정을 ts-node로 한번에 가능하다.
-```Terminal
-> npm i -g ts-node
+    즉 3번에 tsc로 컴파일후 node로 실행 과정을 ts-node로 한번에 가능하다.
+    ```Terminal
+    > npm i -g ts-node
 
-> ts-node ./2020-08-31/hello.ts
-// hello world!
-```
+    > ts-node ./2020-08-31/hello.ts
+    // hello world!
+    ```
 
 
 </div></details>
