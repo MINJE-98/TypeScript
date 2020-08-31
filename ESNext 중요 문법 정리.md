@@ -61,8 +61,6 @@
 
    생성기는 function*과 yield 키워드를 이용해 만든다.
 
-   나는 솔직히 처음보는 문법이다.
-
 6. promise와 async/await 구문
 
    ``` javascript
