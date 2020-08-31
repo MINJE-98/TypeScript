@@ -42,6 +42,7 @@
    class Dog extends Animal{
      say(){return '멍멍'}
    }
+   const animal[] = Animal{[new
    ```
 
 4. 모듈
