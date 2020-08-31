@@ -89,7 +89,7 @@
 </details>
 
 <details>
-<summary>개발환겨 구성</summary>
+<summary>개발환경 구성</summary>
 <div markdown="2">
   테스트
 </div>
