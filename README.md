@@ -87,3 +87,10 @@
    get함수가 반환한 Promise객체는 then 메서드로 실제값을 얻을 수 있다.
 </div>
 </details>
+
+<details>
+<summary>개발환겨 구성</summary>
+<div markdown="2">
+  테스트
+</div>
+</details>
