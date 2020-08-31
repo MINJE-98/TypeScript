@@ -1,13 +1,9 @@
 #	TypeScript-Study
 
-<<<<<<< HEAD
-1. [ESNext 중요 문법 정리](./ESNext 중요 문법 정리.md)
-=======
-
 <details>
 <summary>ESNext 중요 문법 정리</summary>
 <div markdown="1">
-  
+
   ## ESNEXT(ECMAScript2015~2019) 중요 문법 정리
 
 1. 비구조화 할당
@@ -97,4 +93,3 @@
   테스트
 </div>
 </details>
->>>>>>> 05fa307387b8c86dfefd8502c77a3c1b0f6cb1b0
