@@ -144,7 +144,6 @@
 
     > ts-node ./2020-08-31/hello.ts
     // hello world!
-    
      ```
 </div></details>
 
